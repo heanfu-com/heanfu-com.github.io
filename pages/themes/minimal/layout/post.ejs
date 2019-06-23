@@ -15,19 +15,19 @@
                             <span style="color: #aaa; margin: 0 15px">
                                 <%- date(page.date, 'YYYY.MM.DD') %>
                             </span>
-                             | 分类：
-                             <a href="#" style="margin: 0 5px">
+                            | 分类：
+                            <a href="#" style="margin: 0 5px">
                                 <% if (page.categories.length > 0) { %>
-                                    <%-page.categories.data[0].name %>
+                                <%-page.categories.data[0].name %>
                                 <% } else { %>
-                                    -
+                                -
                                 <% } %>
-                             </a>
-                             <% if (page.categories.length > 0) { %>
-                                标签：
-                                <% for (var i in page.tags.data) { %>
-                                    <a href="#" class="post-tag"><%-page.tags.data[i].name %></a>
-                                <% } %>
+                            </a>
+                            <% if (page.categories.length > 0) { %>
+                            标签：
+                            <% for (var i in page.tags.data) { %>
+                            <a href="#" class="post-tag"><%-page.tags.data[i].name %></a>
+                            <% } %>
                             <% } %>
                         </p>
                         <%-page.content%>
@@ -35,7 +35,6 @@
                     <!-- / post-info-box -->
                 </div>
                 <!-- / blog-block -->
-                <%- partial('_components/changyan') %>
             </div>
             <!-- / col-md-9 -->
             <!-- / post content area -->
