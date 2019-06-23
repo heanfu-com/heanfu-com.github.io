@@ -21,7 +21,7 @@ project:
 banner:
   title: 北京合安福科技有限公司
   description: 北京合安福科技有限公司是IT软件信息服务、先进的地理信息服务提供商，为客户提供高效、优质的软硬件互联网服务。
-  background_image: /images/banner-bg.jpg
+  background_image: /images/banner-bg.jpg, /images/banner-bg.3jpg, /images/banner-bg2.jpg
 
 author:
   avatar: "/images/avatar.gif"
